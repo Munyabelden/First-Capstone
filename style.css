@@ -38,7 +38,7 @@ li { list-style: none; }
 
 a { text-decoration: none; }
 
-.logo { color: var(--clr-dark);}
+.logo { color: var(--clr-dark); }
 
 .sr-hidden { visibility: hidden; }
 
@@ -119,7 +119,7 @@ a { text-decoration: none; }
 
   .navigation p { display: none; }
 
-  .primary-navigation li  {
+  .primary-navigation li {
     color: var(--clr-white);
     font-size: 22px;
     font-weight: 600;
@@ -402,7 +402,7 @@ a { text-decoration: none; }
   }
 
   .program:hover,
-  .program:focus{
+  .program:focus {
     border: 2px solid #efefef;
   }
 
@@ -489,11 +489,15 @@ a { text-decoration: none; }
 }
 
 .home-footer {
-  background: var(--clr-dark);
-  color: var(--clr-white);
-  padding: 40px 5%;
-  font-size: 15px;
-  font-weight: 300;
+  color: var(--clr-dark);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  background: var(--clr-white);
+  padding-block: 40px;
+  padding-right: 10%;
 }
 
 @media (min-width: 800px) {
@@ -562,6 +566,12 @@ a { text-decoration: none; }
   position: absolute;
   top: 10px;
   margin-left: 5%;
+}
+
+.about img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
 }
 
 .about-home .media img {
@@ -642,12 +652,6 @@ a { text-decoration: none; }
   padding: 40px 10px;
   display: block;
   border: 2px solid #efefef;
-}
-
-.about img {
-  width: 250px;
-  height: 150px;
-  object-fit: cover;
 }
 
 .previous-events {
@@ -772,19 +776,6 @@ a { text-decoration: none; }
   padding-right: 10%;
 }
 
-.home-footer {
-  background: #efefef;
-  color: var(--clr-dark);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 10%;
-  background: var(--clr-white);
-  padding-block: 40px;
-  padding-right: 10%;
-}
-
 @media (min-width: 768px) {
   .years {
     display: flex;
@@ -819,7 +810,7 @@ a { text-decoration: none; }
     gap: 15px;
     justify-content: center;
     align-items: center;
-    padding-block: 10px ;
+    padding-block: 10px;
     width: 90%;
     margin: 40px auto;
     background: none;
