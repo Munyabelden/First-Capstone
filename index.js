@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
   <h2>Featured Designers</h2>
   <div class="designers">
       <div class="speaker">
-        <button type="button" class="pop-up ralph" id="1"> <span class="sr-hidden">Pop</span></button>
+      <img src="${designerArray[0].image}" alt="ralph lauren">
         <div class="speaker-detail">
           <h3>${designerArray[0].name}</h3>
           <span class="about-speaker">${designerArray[0].background}</span>
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       </div>
       <div class="speaker">
-        <button type="button" class="pop-up pal" id="2"> <span class="sr-hidden">Pop</span></button>            
+      <img src="${designerArray[1].image}" alt="palesa">           
         <div class="speaker-detail">
             <h3>${designerArray[1].name}</h3>
             <span class="about-speaker">${designerArray[1].background}</span>
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         </div>
         <div class="speaker">
-          <button type="button" class="pop-up jacobs" id="3"><span class="sr-hidden">Pop</span></button>             
+        <img src="${designerArray[2].image}" alt="marc jacobs">           
         <div class="speaker-detail">
             <h3>${designerArray[2].name}</h3>
             <span class="about-speaker">${designerArray[2].background}</span>
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         </div>
         <div class="speaker">
-          <button type="button" class="pop-up donna" id="4"><span class="sr-hidden">Pop</span></button>               
+        <img src="${designerArray[3].image}" alt="donna karan">             
         <div class="speaker-detail">
             <h3>${designerArray[3].name}</h3>
             <span class="about-speaker">${designerArray[3].background}</span>
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         </div>
         <div class="speaker">
-          <button type="button" class="pop-up tom" id="5"><span class="sr-hidden">Pop</span></button>             
+        <img src="${designerArray[4].image}" alt="Tom ford">             
         <div class="speaker-detail">
             <h3>${designerArray[4].name}</h3>
             <span class="about-speaker">${designerArray[4].background}</span>
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         </div>
         <div class="speaker">
-          <button type="button" class="pop-up armani" id="6"><span class="sr-hidden">Pop</span></button> 
+         <img src="${designerArray[5].image}" alt="giorgio armani"> 
         <div class="speaker-detail">
             <h3>${designerArray[5].name}</h3>
             <span class="about-speaker">${designerArray[5].background}</span>
