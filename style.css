@@ -91,7 +91,8 @@ a { text-decoration: none; }
 @media (max-width: 768px) {
   .media,
   .image,
-  .partner { display: none; }
+  .partner,
+  .home-information .footer-logo { display: none; }
 
   .navigation {
     background: #272a31;
@@ -365,6 +366,10 @@ a { text-decoration: none; }
     padding-block: 10px;
     padding-inline: 4px;
   }
+
+  .program p {
+    width: 90%;
+  }
 }
 
 .featured-speakers {
@@ -429,7 +434,7 @@ a { text-decoration: none; }
   color: var(--clr-white);
   padding: 40px 5%;
   font-size: 15px;
-  font-weight: 100px;
+  font-weight: 300;
 }
 
 @media (min-width: 900px) {
@@ -441,7 +446,7 @@ a { text-decoration: none; }
     margin-inline: auto;
   }
 
-  .partner{
+  .partner {
     background: #272a31;
     width: 100%;
     padding: 40px 10%;
@@ -479,7 +484,6 @@ a { text-decoration: none; }
     padding: 30px;
     color: rgba(239, 239, 239, 0.5);
     font-family: 'Roboto', sans-serif;
-    font-size: 36px;
   }
 
   .home-footer {
@@ -487,7 +491,7 @@ a { text-decoration: none; }
     color: var(--clr-dark);
     padding: 40px 5%;
     font-size: 15px;
-    font-weight: 100px;
+    font-weight: 300;
   }
 }
 
@@ -543,7 +547,7 @@ a { text-decoration: none; }
   text-align: center;
   justify-self: center;
   color: var(--clr-dark);
-  margin-top: 40px
+  margin-top: 40px;
 }
 
 .main-about h2::after,
@@ -597,7 +601,7 @@ a { text-decoration: none; }
   text-align: center;
   justify-self: center;
   color: var(--clr-dark);
-  margin-top: 80px,
+  margin-top: 80px;
 }
 
 .previous-events p {
@@ -656,7 +660,7 @@ a { text-decoration: none; }
   font-weight: 600;
 }
 
-.about-partner{
+.about-partner {
   background: #272a31;
   width: 100%;
   padding: 40px 10%;
@@ -690,7 +694,6 @@ a { text-decoration: none; }
 }
 
 .about-partners p {
-  font-size: 15px;
   padding: 10px;
   color: rgba(239, 239, 239, 0.5);
   font-family: 'Roboto', sans-serif;
@@ -708,7 +711,7 @@ a { text-decoration: none; }
     display: flex;
     flex-direction: row;
     margin-inline: auto;
-    width: 650px
+    width: 650px;
   }
 
   .about-partner {
