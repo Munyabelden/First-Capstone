@@ -54,6 +54,7 @@
 
 
 - [Live Demo Link](https://munyabelden.github.io/)
+ -[Loom Live Link](https://www.loom.com/share/eaacd49a8999421ea32a642d6c58e718)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +93,7 @@ github pages or any hosting of you choice
 
 ## 👥 Authors <a name="authors"></a>
 
-A copy By Cindy Shin (CC Summit)
+Original design idea by <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015" >Cindy Shin</a>
 
 👤 **Author1**
 

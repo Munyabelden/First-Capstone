@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${designerArray[1].message}</p>
         </div>
         </div>
-        <div class="speaker">
+        <div class="speaker hide">
         <img src="${designerArray[2].image}" alt="marc jacobs">           
         <div class="speaker-detail">
             <h3>${designerArray[2].name}</h3>
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${designerArray[2].message} </p>
         </div>
         </div>
-        <div class="speaker">
+        <div class="speaker hide">
         <img src="${designerArray[3].image}" alt="donna karan">             
         <div class="speaker-detail">
             <h3>${designerArray[3].name}</h3>
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${designerArray[3].message}</p>
         </div>
         </div>
-        <div class="speaker">
+        <div class="speaker hide">
         <img src="${designerArray[4].image}" alt="Tom ford">             
         <div class="speaker-detail">
             <h3>${designerArray[4].name}</h3>
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${designerArray[4].message}</p>
         </div>
         </div>
-        <div class="speaker">
+        <div class="speaker hide">
          <img src="${designerArray[5].image}" alt="giorgio armani"> 
         <div class="speaker-detail">
             <h3>${designerArray[5].name}</h3>
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
 
   </div>
-
+  <button type="button" class="more"> <p> MORE</p> <span>V</span></button>
 </section> 
   ` )
 })
